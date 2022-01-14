@@ -363,4 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # for Mac
-.DS_Store
+**/.DS_Store
+
