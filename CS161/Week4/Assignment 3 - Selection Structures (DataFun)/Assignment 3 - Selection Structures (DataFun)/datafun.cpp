@@ -155,8 +155,7 @@ int main() {
 	// Print out if it’s a numeric digit or letter
 	if ('0' <= usersChar && usersChar <= '9') {
 		cout << "\tit is a numeric digit" << endl;
-	}
-	else {
+	} else {
 		// Set ASCII number of char to output ASCII value and alphabet's number order
 		int asciiNum = static_cast<int>(usersChar);
 		int charNum;
@@ -165,8 +164,7 @@ int main() {
 		if ('a' <= usersChar && usersChar <= 'z') {
 			cout << "\t" << usersChar << " is a lowercase letter," << endl;
 			charNum = asciiNum - 96;
-		}
-		else {
+		} else {
 			cout << "\t" << usersChar << " is an uppercase letter," << endl;
 			charNum = asciiNum - 64;
 		}
