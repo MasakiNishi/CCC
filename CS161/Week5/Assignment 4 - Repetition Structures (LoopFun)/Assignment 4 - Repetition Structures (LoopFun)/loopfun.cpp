@@ -75,7 +75,7 @@ int main() {
 		// When middle line
 		} else {
 			for (int i = 1; i <= boxWidth; i++) {
-				// Outputs * when firsl column and final column
+				// Outputs * when first column and final column
 				if (i == 1 || i == boxWidth)
 					cout << "*";
 				// Outputs nothing when middle column
