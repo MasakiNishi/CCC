@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9341c778-f037-4df3-acbf-ab7008891234}</ProjectGuid>
+    <ProjectGuid>{8b4e4efb-72af-4e3d-8f93-602539b2733d}</ProjectGuid>
     <RootNamespace>Assignment6TimeFun</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

@@ -70,7 +70,7 @@ void getTime24(int& hour, int& minute) {
 	cin.ignore(100, '\n');
 
 	// Continues to get proper 24-hour format time
-	while (hour < 0 || hour > 24 || ch != ':' || minute < 0 || minute >= 60 || hour == 24 && minute > 0 ) {
+	while (hour < 0 || hour > 24 || ch != ':' || minute < 0 || minute >= 60 || hour == 24 && minute > 0) {
 		cout << "The format is incorrect : Try again : ";
 		cin >> hour >> ch >> minute;
 		cin.ignore(100, '\n');
@@ -85,7 +85,7 @@ int convertTime24to12(int hour, char& meridiem) {
 		return 12;
 	}
 	// Return hour am as it is if hour is less than 12
-	else if(hour <= 12) {
+	else if (hour <= 12) {
 		// Return pm when hour is 12
 		if (hour == 12)
 			meridiem = 'p';
