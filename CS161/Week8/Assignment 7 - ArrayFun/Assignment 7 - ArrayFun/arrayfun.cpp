@@ -13,8 +13,6 @@ all the values that appear in the array more than once
 
 #include <iostream> // required for cin/cout
 #include <string> // required to use string type
-#include <algorithm>  // required to use uniq
-#include <vector> // required to use size and uniq
 
 using namespace std; // sets the default namespace to std for the program
 
