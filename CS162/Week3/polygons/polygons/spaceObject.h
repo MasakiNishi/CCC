@@ -35,8 +35,8 @@ public:
 	/**
 	*	Sets the radius of a SpaceObject.
 	*		@param radius - the character to be checked
-	*	@return true if radius is valid,
-	*		false otherwise (when negative and over half the screen height)
+	*		@return true if radius is valid,
+	*				false otherwise (when negative and over half the screen height)
 	*/
 	bool setRadius(int radius);
 
