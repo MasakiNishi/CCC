@@ -49,7 +49,7 @@ public:
 	bool setLocation(double x, double y);
 
 	/**
-	*	Sets the velocity of a SpaceObject. If the input is out of bounds, it's wrapped around the screen until it's back in bounds
+	*	Sets the velocity of a SpaceObject. If out of bounds, it's wrapped around the screen until it's back in bounds
 	*		@param x - the x change (in pixels/frame) of the new velocity
 	*		@param y - the y change (in pixels/frame) of the new velocity
 	*		@return true upon completion
