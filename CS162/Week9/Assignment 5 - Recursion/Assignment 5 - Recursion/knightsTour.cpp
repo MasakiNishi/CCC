@@ -25,9 +25,9 @@ int main() {
 	Board board;
 	std::cout << "Welcome to the Knight's Tour solver!" << std::endl << std::endl;
 	std::cout << "Board size :" << BOARD_SIZE << std::endl;
-	std::cout << "Starting position(row, col) : 2, 2" << std::endl << std::endl;
+	std::cout << "Starting position(row, col) : 3, 3" << std::endl << std::endl;
 	std::cout << "Thinking...." << std::endl << std::endl;
-	std::cout << "Total Solutions: " << solveKnightsTour(board, 2, 2) << std::endl;
+	std::cout << "Total Solutions: " << solveKnightsTour(board, 3, 3) << std::endl;
 }
 
 /** ================================================================
